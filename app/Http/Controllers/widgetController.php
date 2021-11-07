@@ -8,16 +8,12 @@ class widgetController extends Controller
 {
     public function index(Request $rq)
     {
-
-
-
         return view('widgets.index');
         
     }
 
     public function order(Request $rq)
     {
-        
 
         $request = $rq->all();
         //dd($request);
